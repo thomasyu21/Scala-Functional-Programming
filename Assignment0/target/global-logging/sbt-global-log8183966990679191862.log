@@ -1,0 +1,121 @@
+[debug] > Exec(;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers insertProjectTransitiveDependencies" ;preferScala2;*/*:dumpStructureTo C:/Users/thoma/AppData/Local/Temp/sbt-structure.xml; session clear-all ; set ideaPort in Global := 60513, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.9.8 (Oracle Corporation Java 21.0.2)
+[debug] Load.defaultLoad until apply took 2.3157ms
+[debug]           Load.loadUnit: plugins took 24.5655ms
+[debug]           Load.loadUnit: defsScala took 0.0061ms
+[debug] [Loading] Scanning directory C:\Users\thoma\IdeaProjects\Scala-Functional-Programming\Assignment0\project
+[debug]             Load.loadUnit: mkEval took 0.3438ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\thoma\IdeaProjects\Scala-Functional-Programming\Assignment0\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.9111 ms
+[info] loading settings for project assignment0-build from idea2.sbt ...
+[debug]               Load.resolveProject(assignment0-build) took 2.3725ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id assignment0-build, base: C:\Users\thoma\IdeaProjects\Scala-Functional-Programming\Assignment0\project, plugins: List(<none>))) took 3.9146ms
+[debug] [Loading] Done in C:\Users\thoma\IdeaProjects\Scala-Functional-Programming\Assignment0\project, returning: (assignment0-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 25.504ms
+[debug]           Load.loadUnit: cleanEvalClasses took 4.1392ms
+[debug]         Load.loadUnit(file:/C:/Users/thoma/IdeaProjects/Scala-Functional-Programming/Assignment0/project/, ...) took 55.528ms
+[debug]       Load.apply: load took 57.5835ms
+[debug]       Load.apply: resolveProjects took 0.1957ms
+[debug]       Load.apply: finalTransforms took 8.1819ms
+[debug]       Load.apply: config.delegates took 0.3578ms
+[debug]       Load.apply: Def.make(settings)... took 50.9416ms
+[debug]       Load.apply: structureIndex took 14.4776ms
+[debug]       Load.apply: mkStreams took 0.0054ms
+[info] loading project definition from C:\Users\thoma\IdeaProjects\Scala-Functional-Programming\Assignment0\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 305.7333ms
+[debug]     Load.loadUnit: defsScala took 0.0058ms
+[debug] [Loading] Scanning directory C:\Users\thoma\IdeaProjects\Scala-Functional-Programming\Assignment0
+[debug]       Load.loadUnit: mkEval took 0.3692ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 2.1052 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 40.2304ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\thoma\IdeaProjects\Scala-Functional-Programming\Assignment0, plugins: List(<none>))) took 42.9449ms
+[debug] [Loading] Done in C:\Users\thoma\IdeaProjects\Scala-Functional-Programming\Assignment0, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 81.7182ms
+[debug]     Load.loadUnit: cleanEvalClasses took 10.0788ms
+[debug]   Load.loadUnit(file:/C:/Users/thoma/IdeaProjects/Scala-Functional-Programming/Assignment0/, ...) took 398.8047ms
+[debug] Load.apply: load took 410.0712ms
+[debug] Load.apply: resolveProjects took 0.1251ms
+[debug] Load.apply: finalTransforms took 19.5712ms
+[debug] Load.apply: config.delegates took 0.4446ms
+[debug] Load.apply: Def.make(settings)... took 64.5707ms
+[debug] Load.apply: structureIndex took 14.2186ms
+[debug] Load.apply: mkStreams took 0.0038ms
+[warn] Discarding 1 session setting.  Use 'session save' to persist session settings.
+[info] set current project to Assignment0 (in build file:/C:/Users/thoma/IdeaProjects/Scala-Functional-Programming/Assignment0/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers insertProjectTransitiveDependencies", None, None)
+[info] Defining Global / sbtStructureOptions
+[info] The new value will be used by Global / ssOptions
+[debug] Defining 
+[debug] 	Global / sbtStructureOptions
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Global / ssOptions
+[info] Reapplying settings...
+[info] set current project to Assignment0 (in build file:/C:/Users/thoma/IdeaProjects/Scala-Functional-Programming/Assignment0/)
+[debug] > Exec(preferScala2, None, None)
+[debug] > Exec(*/*:dumpStructureTo C:/Users/thoma/AppData/Local/Temp/sbt-structure.xml, None, None)
+[debug] Evaluating tasks: Global / dumpStructureTo
+[warn] sbt 0.13 shell syntax is deprecated; use slash syntax instead: Global / dumpStructureTo
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] Writing structure to C:\Users\thoma\AppData\Local\Temp\sbt-structure.xml...
+[info] Done.
+[success] Total time: 0 s, completed Feb 4, 2024, 3:16:00 PM
+[debug] > Exec(session clear-all, None, None)
+[info] Reapplying settings...
+[info] set current project to Assignment0 (in build file:/C:/Users/thoma/IdeaProjects/Scala-Functional-Programming/Assignment0/)
+[debug] > Exec(set ideaPort in Global := 60513, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to Assignment0 (in build file:/C:/Users/thoma/IdeaProjects/Scala-Functional-Programming/Assignment0/)
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

@@ -1,0 +1,7 @@
+[debug] > Exec(all {file:/C:/Users/thoma/IdeaProjects/Assignment0/}root/products {file:/C:/Users/thoma/IdeaProjects/Assignment0/}root/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Total time: 0 s, completed Feb 4, 2024, 12:17:58 AM
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
